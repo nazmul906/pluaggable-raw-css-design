@@ -1,6 +1,6 @@
 /* */
 .container {
-  width: 80%;
+  width: 90%;
   margin: 0 auto; /* Center the parent container on the page */
   /* background-color: #f0f0f0; */
 }
@@ -225,6 +225,31 @@
   color: #007bff;
 }
 
+.sec32 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Create three equal columns */
+  grid-gap: 30px; /* Optional gap between children */
+}
+.sec321 {
+  display: flex;
+}
+.sec33 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  background-color: #03111e;
+  color: white;
+}
+.f1 {
+  margin-left: 20px;
+}
+.f12 {
+  display: flex;
+}
 .imgage1 {
   width: 90%;
   height: 50%;
