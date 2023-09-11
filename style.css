@@ -6,7 +6,7 @@
 }
 .header {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
   gap: 60px;
@@ -30,6 +30,7 @@
 
 .menu {
   display: flex;
+  align-items: center;
   gap: 10px;
 }
 .search-button {
@@ -128,6 +129,12 @@
 .btn25:hover {
   background-color: #0056b3; /* Change the background color on hover */
 }
+.v1 {
+  border-radius: 10px;
+}
+.v2 {
+  border-radius: 10px;
+}
 .v21 {
   display: flex;
   justify-content: space-between;
@@ -162,6 +169,7 @@
 
 .v3 {
   margin-bottom: 20px;
+  border-radius: 10px;
 }
 .v31 {
   display: flex;
@@ -185,6 +193,7 @@
   background-color: #007bff;
   /* height: 100px;*/
   width: 250px;
+  border-radius: 10px;
 }
 .v41 {
   display: flex;
@@ -220,6 +229,9 @@
   justify-content: space-between;
   color: #fff;
 }
+.sec3 {
+  margin-bottom: 20px;
+}
 
 .sec31 {
   color: #007bff;
@@ -246,11 +258,89 @@
 }
 .f1 {
   margin-left: 20px;
+  margin-right: 10px;
 }
 .f12 {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img3 {
+  width: 20px;
+  height: 20px;
 }
 .imgage1 {
   width: 90%;
   height: 50%;
+}
+/* Styles for the search container */
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styles for the search input */
+.search-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 200px; /* Adjust the width as needed */
+  margin-right: 10px; /* Add some spacing between input and button */
+}
+
+/* Styles for the search button */
+.search-button {
+  padding: 10px 10px;
+  background-color: #ff9900;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.f5 {
+  margin-right: 20px;
+}
+/* Hover effect - change background color on hover for the button */
+.search-button:hover {
+  background-color: #0056b3;
+}
+/* Style for the blue button */
+.blue-button {
+  background-color: #007bff; /* Blue background color */
+  color: #fff; /* White text color */
+  border: none; /* Remove the default button border */
+  padding: 10px 20px; /* Padding for the button */
+  border-radius: 5px; /* Rounded corners for the button */
+  cursor: pointer; /* Change the cursor to a pointer on hover */
+  font-size: 16px; /* Font size */
+}
+
+.blue-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.view-live {
+  background-color: white;
+  color: #ff9900;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  border: 1px solid #ff9900;
+}
+
+.hS2imageYatra {
+  margin-right: 20px;
+}
+.home {
+  color: #ff9900;
+}
+.logo1 {
+  width: 100px;
+  height: 100px;
 }
