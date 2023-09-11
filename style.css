@@ -1,0 +1,231 @@
+/* */
+.container {
+  width: 80%;
+  margin: 0 auto; /* Center the parent container on the page */
+  /* background-color: #f0f0f0; */
+}
+.header {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 10px 20px;
+  gap: 60px;
+}
+/* .hd1{
+    display: flex;
+} */
+
+.main {
+  /* display: flex; */
+
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+.horizontalSec {
+  flex: 30%;
+}
+.verticalSec {
+  flex: 70%;
+}
+
+.menu {
+  display: flex;
+  gap: 10px;
+}
+.search-button {
+  background-color: #007bff; /* Background color of the button */
+  color: #fff; /* Text color */
+  padding: 10px 20px; /* Padding to make the button visually appealing */
+  border: none; /* Remove the default button border */
+  border-radius: 5px; /* Rounded corners for the button */
+  cursor: pointer; /* Change the cursor to a pointer on hover */
+  font-size: 16px; /* Font size */
+}
+
+/* Hover effect - change background color on hover */
+.search-button:hover {
+  background-color: #0056b3; /* Change the background color on hover */
+}
+.hS2 {
+  display: flex;
+}
+.search-button {
+  background-color: #007bff; /* Background color of the button */
+  color: #fff; /* Text color */
+  padding: 10px 20px; /* Padding to make the button visually appealing */
+  border: none; /* Remove the default button border */
+  border-radius: 5px; /* Rounded corners for the button */
+  cursor: pointer; /* Change the cursor to a pointer on hover */
+  font-size: 16px; /* Font size */
+}
+
+/* Hover effect - change background color on hover */
+.search-button:hover {
+  background-color: #0056b3; /* Change the background color on hover */
+}
+
+.h3 {
+  display: flex;
+  gap: 20px;
+}
+
+.h3l1 {
+  color: #0056b3;
+  border-bottom: 2px solid #0056b3;
+}
+
+/* Styles for the button */
+.v1 {
+  margin-bottom: 20px;
+}
+.btn251 {
+  display: flex;
+}
+
+.btn25 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  width: 200px;
+  padding: 10px 20px; /* Padding for the button */
+  background-color: #ff9900;
+  color: white;
+  border: none; /* Remove the default button border */
+  border-radius: 5px; /* Rounded corners for the button */
+  cursor: pointer; /* Change the cursor to a pointer on hover */
+  font-size: 16px; /* Font size */
+  margin-bottom: 10px;
+}
+.btn26 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  width: 200px;
+  padding: 10px 20px; /* Padding for the button */
+  background-color: white;
+  color: #ff9900;
+  border: none; /* Remove the default button border */
+  border-radius: 5px; /* Rounded corners for the button */
+  cursor: pointer; /* Change the cursor to a pointer on hover */
+  font-size: 16px; /* Font size */
+  margin-bottom: 10px;
+  border: 2px solid #ff9900;
+}
+.btn27 {
+  height: 30px;
+  width: 200px;
+  padding: 10px 20px; /* Padding for the button */
+  background-color: rgb(19, 109, 200);
+  font-size: 16px; /* Font size */
+
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Hover effect - change background color on hover */
+.btn25:hover {
+  background-color: #0056b3; /* Change the background color on hover */
+}
+.v21 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  width: 200px;
+  padding: 10px 20px; /* Padding for the button */
+  background-color: white;
+  font-size: 16px; /* Font size */
+  border-radius: 5px;
+}
+
+.v21i {
+  border: 2px solid cornflowerblue;
+}
+.v22 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  width: 200px;
+  padding: 10px 20px; /* Padding for the button */
+  background-color: white;
+  /* color: #ff9900; */
+  border: none;
+  border-radius: 5px;
+  font-size: 14px; /* Font size */
+}
+.v22c {
+  color: #007bff;
+}
+
+.v3 {
+  margin-bottom: 20px;
+}
+.v31 {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  width: 200px;
+  padding: 10px 20px; /* Padding for the button */
+  background-color: white;
+  border-bottom: 3px solid #b2beb5;
+}
+.v32 {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  width: 200px;
+  padding: 10px 20px; /* Padding for the button */
+  background-color: white;
+}
+
+.v4 {
+  background-color: #007bff;
+  /* height: 100px;*/
+  width: 250px;
+}
+.v41 {
+  display: flex;
+  border-bottom: 3px solid #b2beb5;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.div42 {
+  margin-left: 10px;
+}
+.div43 {
+  margin-left: 10px;
+}
+.v43 {
+  display: flex;
+}
+.v431 {
+  background-color: white;
+  color: #007bff;
+  border-radius: 2px;
+}
+.v432 {
+  margin-left: 10px;
+  border: 1px solid white;
+}
+
+.div44 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.div441 {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.sec31 {
+  color: #007bff;
+}
+
+.imgage1 {
+  width: 90%;
+  height: 50%;
+}
